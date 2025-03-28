@@ -7,8 +7,8 @@
         body {
             background-color: black;
             color: red;
-            font-family: Times New Roman;
-            text-align: center;
+            font-family: Courier New;
+            text-align: left;
         }
         h1, h2 {
             text-transform: uppercase;

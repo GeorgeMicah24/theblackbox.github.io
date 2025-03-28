@@ -7,7 +7,7 @@
         body {
             background-color: black;
             color: red;
-            font-family: Courier New, monospace;
+            font-family: Times New Roman;
             text-align: center;
         }
         h1, h2 {

@@ -7,7 +7,7 @@
         body {
             background-color: black;
             color: red;
-            font-family: "Courier New", monospace;
+            font-family: "Courier New", Courier, monospace;
             text-align: left;
         }
         h1, h2 {

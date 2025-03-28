@@ -44,7 +44,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>The Blackbox 2</h1>
+        <h1>The Blackbox</h1>
         <img src="theblackboximg.png" alt="Image of The Blackbox">
         <p>An entirely hands-free guitar FX pedal that provides the user with the ability to switch from a variety of different FX presets with a single input mid-performance.</p>
         <p>When a guitarist is playing on-stage, the last thing they want to do is bend down and turn knobs every time they need to adjust their FX. The Blackbox allows the user to switch seamlessly between parameters mid-performance, using only their feet. While other products may have similar capabilities, they do not allow the user to be completely hands-free. This product allows the user to switch between three distinct FX of their choosing and offers a pedal for volume control, along with an LCD screen to display which FX the user is currently editing.</p>
@@ -96,7 +96,7 @@
         <p>He researches digital signal processing and helps give us ideas on how this type of project is shaped.</p>
         <img src="teamadvisor.png" alt="Dr. John Ball">
         
-        <div class="footer">THE BLACKBOX TWO</div>
+        <div class="footer">THE BLACKBOX THREE</div>
     </div>
 </body>
 </html>

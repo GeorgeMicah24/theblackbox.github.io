@@ -96,7 +96,7 @@
         <p>He researches digital signal processing and helps give us ideas on how this type of project is shaped.</p>
         <img src="teamadvisor.png" alt="Dr. John Ball">
         
-        <div class="footer">THE BLACKBOX THREE</div>
+        <div class="footer">THE BLACKBOX</div>
     </div>
 </body>
 </html>

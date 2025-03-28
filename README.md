@@ -88,7 +88,7 @@
         </div>
         
         <div class="team-member">
-            <img src="team5.jpg" alt="Clayton Jobe">
+            <img src="team6.jpg" alt="Clayton Jobe">
             <p><strong>CLAYTON JOBE</strong></p>
             <p>Micro Control Logic & U.I. Sub-Teams Support</p>
         </div>

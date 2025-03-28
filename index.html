@@ -28,14 +28,26 @@
         img {
             margin: 20px 0;
         }
-        #blackbox-img {
+        .blackbox-img {
             width: 100%; /* Makes the blackbox image full width */
+            
         }
         .team-member img {
-            width: 25%; /* Set a smaller width for team images */
+            width: 100%;
+            height: auto;
+            max-width: 150px;
+            margin-bottom: 10px;
+        }
+        .team {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px; /* Space between team members */
+            margin-top: 40px;
         }
         .team-member {
-            margin: 20px 0;
+            text-align: center;
+            width: 150px; /* Control width of each team member container */
         }
         .documentation ul {
             list-style-type: disc;
@@ -57,7 +69,7 @@
 <body>
     <div class="container">
         <h1>The Blackbox</h1>
-        <img id="blackbox-img" src="theblackboximg.png" alt="Image of The Blackbox">
+        <img class="blackbox-img" src="blackbox.jpg" alt="Image of The Blackbox">
         <p>An entirely hands-free guitar FX pedal that provides the user with the ability to switch from a variety of different FX presets with a single input mid-performance.</p>
         <p>When a guitarist is playing on-stage, the last thing they want to do is bend down and turn knobs every time they need to adjust their FX. The Blackbox allows the user to switch seamlessly between parameters mid-performance, using only their feet. While other products may have similar capabilities, they do not allow the user to be completely hands-free. This product allows the user to switch between three distinct FX of their choosing and offers a pedal for volume control, along with an LCD screen to display which FX the user is currently editing.</p>
         
@@ -74,34 +86,32 @@
         <h2>Meet The Team</h2>
         <p>&#9835; Alternative Instrumentation &#9835;</p>
         
-        <div class="team-member">
-            <img src="team1.jpg" alt="Cash Henderson">
-            <p><strong>CASH HENDERSON</strong></p>
-            <p>Team Lead & Digital FX Design Sub-Team Co-Lead</p>
-        </div>
-        
-        <div class="team-member">
-            <img src="team2.jpg" alt="Ian Avant">
-            <p><strong>IAN AVANT</strong></p>
-            <p>Digital FX Design Sub-Team Co-Lead</p>
-        </div>
-        
-        <div class="team-member">
-            <img src="team3.jpg" alt="Max Hayhurst">
-            <p><strong>MAX HAYHURST</strong></p>
-            <p>User Interface & Enclosure Sub-Team Lead</p>
-        </div>
-        
-        <div class="team-member">
-            <img src="team4.jpg" alt="Micah George">
-            <p><strong>MICAH GEORGE</strong></p>
-            <p>Micro Control Logic Sub-Team Lead</p>
-        </div>
-        
-        <div class="team-member">
-            <img src="team6.jpg" alt="Clayton Jobe">
-            <p><strong>CLAYTON JOBE</strong></p>
-            <p>Micro Control Logic & U.I. Sub-Teams Support</p>
+        <div class="team">
+            <div class="team-member">
+                <img src="cash_henderson.jpg" alt="Cash Henderson">
+                <p><strong>Cash Henderson</strong></p>
+                <p>Team Lead & Digital FX Design Sub-Team Co-Lead</p>
+            </div>
+            <div class="team-member">
+                <img src="ian_avant.jpg" alt="Ian Avant">
+                <p><strong>Ian Avant</strong></p>
+                <p>Digital FX Design Sub-Team Co-Lead</p>
+            </div>
+            <div class="team-member">
+                <img src="max_hayhurst.jpg" alt="Max Hayhurst">
+                <p><strong>Max Hayhurst</strong></p>
+                <p>User Interface & Enclosure Sub-Team Lead</p>
+            </div>
+            <div class="team-member">
+                <img src="micah_george.jpg" alt="Micah George">
+                <p><strong>Micah George</strong></p>
+                <p>Micro Control Logic Sub-Team Lead</p>
+            </div>
+            <div class="team-member">
+                <img src="clayton_jobe.jpg" alt="Clayton Jobe">
+                <p><strong>Clayton Jobe</strong></p>
+                <p>Micro Control Logic & U.I. Sub-Teams Support</p>
+            </div>
         </div>
         
         <h3>And our faculty advisor, DR. JOHN BALL!</h3>
